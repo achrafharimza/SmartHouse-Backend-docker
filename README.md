@@ -10,7 +10,7 @@
   ## * Implémentation la partie sécurité en utilisant le standard JWT.
   
 # 📝 Tâche 4: 
-  ## * Implémentation un pipeline CI/CD en GitHub Actions, ce dernier va contenir les parties :
+  ## * Implémentation d'un pipeline CI/CD en GitHub Actions, ce dernier va contenir les parties :
     ###### ⚡ Build
     ###### ⚡ Test
     ###### ⚡ Pushing docker image to DockerHub.
