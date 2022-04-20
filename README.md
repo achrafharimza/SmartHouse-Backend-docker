@@ -11,11 +11,11 @@
   
 # 📝 Tâche 4: 
   ## * Implémentation d'un pipeline CI/CD en GitHub Actions, ce dernier va contenir les parties :
-    ###### ⚡ Build
-    ###### ⚡ Test
-    ###### ⚡ Pushing docker image to DockerHub.
-    ###### ⚡ Microservice API Deployment (using docker) to Heroku.
-    ###### ⚡ Database Deployement to MongoDB Atlas.
+      ⚡ Build
+      ⚡ Test
+      ⚡ Pushing docker image to DockerHub.
+      ⚡ Microservice API Deployment (using docker) to Heroku.
+      ⚡ Database Deployement to MongoDB Atlas.
  
 ---------------------------------------------------------------------------------------------------------------
 # Contraintes de projet:
@@ -23,10 +23,10 @@
    ###### 🎯 Utilisation: Maven.
    
    ###### 🎯 Utilisation: les spring boot starters:
-          ###### 🚀 Spring Web : RESTful
-          ###### 🚀 Spring Data MongoDB
-          ###### 🚀 Spring Security
-          ###### 🚀 Lombok: générer les POJOS.
+            🚀 Spring Web : RESTful
+            🚀 Spring Data MongoDB
+            🚀 Spring Security
+            🚀 Lombok: générer les POJOS.
    
    ###### 🎯 Utilisation: Junit5 et Mockito..
    
@@ -36,11 +36,17 @@
 # Modalités de réalisation du projet:
 
   ###### La réalisation est respectée la totalité des missions :
-         ###### 👉 REST API.
-         ###### 👉 Tests.
-         ###### 👉 Security.
-         ###### 👉 Deployment.
-         ###### 👉 Pipeline CI/CD.
+           👉 REST API.
+           👉 Tests.
+           👉 Security.
+           👉 Deployment.
+           👉 Pipeline CI/CD.
+        
+   ---------------------------------------------------------------------------------------------------------------
+# Le projet Final:
+
+  ###### backend api deployé avec Heroku :https://smarthousebackend.herokuapp.com/
+   ###### (🔔 La documentation des Api avec Swagger sera disponible bientôt)
          
 
    
