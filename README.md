@@ -45,7 +45,7 @@
    ---------------------------------------------------------------------------------------------------------------
 # Le projet Final:
 
-  ###### backend api deployé avec Heroku :https://smarthousebackend.herokuapp.com/
+  ###### backend api deployé avec Heroku : https://smarthousebackend.herokuapp.com/user/all
    ###### (🔔 La documentation des Api avec Swagger sera disponible bientôt)
          
 
