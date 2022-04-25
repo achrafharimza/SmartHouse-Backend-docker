@@ -59,9 +59,20 @@ public class DeviceServiceImpl implements DeviceService {
     @Override
     public DeviceDto update(DeviceDto deviceDto, String id) {
         DeviceEntity deviceEntity = Mapping.convertToEntity(deviceDto, DeviceEntity.class);
-//        deviceEntity.setId(id);
+        deviceEntity.setId(id);
         deviceEntity = deviceRepository.save(deviceEntity);
 
         return Mapping.convertToDto(deviceEntity, DeviceDto.class);
+    }
+
+    @Override
+    public DeviceDto updateStatus(String status, String id) {
+        DeviceEntity device = deviceRepository.findDeviceEntityById(id);
+
+
+        device.setStatus(status);
+        device = deviceRepository.save(device);
+
+        return Mapping.convertToDto(device, DeviceDto.class);
     }
 }

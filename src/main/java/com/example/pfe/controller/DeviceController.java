@@ -68,7 +68,16 @@ public class DeviceController {
 
     }
 
+    //------- Get By Id  : --------------------------------------------------------------
 
+    @PatchMapping("/{id}")
+
+    public ResponseEntity<DeviceDto> changeStatus(@PathVariable String id,@RequestBody String status){
+        DeviceDto updated = deviceService.updateStatus(status,id);
+
+        return new ResponseEntity<DeviceDto>(updated, HttpStatus.CREATED);
+
+    }
 
 }
 

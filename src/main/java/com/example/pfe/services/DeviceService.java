@@ -9,6 +9,7 @@ public interface DeviceService {
     DeviceDto getById(String id);
     DeviceDto create(DeviceDto device);
     DeviceDto update(DeviceDto deviceDto, String id);
+    DeviceDto updateStatus(String status, String id);
     boolean delete(String id);
 
 
